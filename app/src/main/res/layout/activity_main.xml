@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="Calcula tu promedio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/ipchile" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta app esta diseñada para realizar el calculo de tu promedio final con el fin de ver si estás Aprobando o Reprobando y si tienes derecho a dar el examen estructurado obteniendo la nota minima de aprobación" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp" />
+
+    <Button
+        android:id="@+id/btn_calcularP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular promedio" />
+
+    <Button
+        android:id="@+id/btn_calcularE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Examen" />
+
+    <Button
+        android:id="@+id/btn_contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion" />
+</LinearLayout>
