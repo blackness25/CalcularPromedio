@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class Calculando extends AppCompatActivity {
     //Instanciamos
     private EditText et_epr1,et_epr2,et_epe1,et_epe2,et_eva1,et_eva2,et_eva3,et_eva4,et_resultado;
-    private Button btn_enviarP;
+    private Button btn_calcularP;
     private TextView tv_resultado
             ;
     @Override
@@ -28,11 +28,11 @@ public class Calculando extends AppCompatActivity {
         et_eva3=findViewById(R.id.et_eva3);
         et_eva4=findViewById(R.id.et_eva4);
         //Button
-        btn_enviarP=findViewById(R.id.btn_calcularP);
+        btn_calcularP=findViewById(R.id.btn_calcularP);
         //TextViw
         tv_resultado=findViewById(R.id.tv_resultado);
 
-        btn_enviarP.setOnClickListener(new View.OnClickListener() {
+        btn_calcularP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

@@ -27,7 +27,7 @@ public class CalculandoE extends AppCompatActivity {
         et_eva3=findViewById(R.id.et_eva3);
         et_eva4=findViewById(R.id.et_eva4);
         //Button
-        btn_EnviarE=findViewById(R.id.btn_enviarP);
+        btn_EnviarE=findViewById(R.id.btn_EnviarE);
         //TextViw
         tv_resultado=findViewById(R.id.tv_resultado);
         btn_EnviarE.setOnClickListener(new View.OnClickListener() {

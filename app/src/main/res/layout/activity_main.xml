@@ -31,13 +31,13 @@
         android:layout_height="69dp" />
 
     <Button
-        android:id="@+id/btn_calcularP"
+        android:id="@+id/btn_calcularPr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular promedio" />
 
     <Button
-        android:id="@+id/btn_calcularE"
+        android:id="@+id/btn_calcularEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular Examen" />
