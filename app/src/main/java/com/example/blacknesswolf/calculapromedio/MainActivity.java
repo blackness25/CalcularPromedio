@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn_contacto,btn_calcularPr,btn_calcularEx;
+    private Button btn_contacto,btn_calcularEx;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,16 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Button
         btn_contacto=findViewById(R.id.btn_contacto);
-        btn_calcularPr=findViewById(R.id.btn_calcularPr);
+
         btn_calcularEx=findViewById(R.id.btn_calcularEx);
 
-        btn_calcularPr.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent calcularPr=new Intent(MainActivity.this,Calculando.class);
-                startActivity(calcularPr);
-            }
-        });
+
         btn_calcularEx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

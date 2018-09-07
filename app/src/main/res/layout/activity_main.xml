@@ -33,21 +33,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_calcularPr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text="Calcular promedio" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btn_calcularEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:text="Calcular Examen" />
+        android:text="Calcular promedio" />
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />

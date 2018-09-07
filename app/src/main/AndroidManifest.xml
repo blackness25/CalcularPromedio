@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Calculando" />
         <activity android:name=".CalculandoE" />
         <activity android:name=".Contacto"></activity>
     </application>
