@@ -12,38 +12,69 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hola aqui podras contactarte con nosotros y aclarar las dudas" />
+        android:gravity="center"
+        android:text="Hola aqui podras contactarte con nosotros y aclarar las dudas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
-        android:layout_height="61dp" />
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="253dp"
         android:layout_height="133dp"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/perfil" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="                 Tomas Salinas  tomsalinas2007@gmail.com" />
+        android:gravity="center"
+        android:text="Tomas Salinas"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="tomsalinas2007@gmail.com"
+        android:gravity="center"
+        app:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="265dp"
         android:layout_height="187dp"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/vicky" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="                 Victoria Valenzuela  victoria.vp.ipchile@gmail.com" />
+        android:gravity="center"
+        android:text="Victoria Valenzuela"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="victoria.vp.ipchile@gmail.com"
+        app:fontFamily="casual" />
 
 </LinearLayout>
