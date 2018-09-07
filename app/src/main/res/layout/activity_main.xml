@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:label="Calcula tu promedio"
+    android:background="#e0f2f1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -29,22 +30,31 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="69dp" />
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_calcularPr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:text="Calcular promedio" />
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_calcularEx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:text="Calcular Examen" />
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_contacto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:text="Informacion" />
 </LinearLayout>

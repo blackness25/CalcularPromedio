@@ -2,10 +2,12 @@ package com.example.blacknesswolf.calculapromedio;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Calculando extends AppCompatActivity {
     //Instanciamos
@@ -30,7 +32,7 @@ public class Calculando extends AppCompatActivity {
         //Button
         btn_calcularP=findViewById(R.id.btn_calcularP);
         //TextViw
-        tv_resultado=findViewById(R.id.tv_resultado);
+
 
         btn_calcularP.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +58,10 @@ public class Calculando extends AppCompatActivity {
                 double promedio =epr1+epr2+epe1+epe2+totalEvas;
                 double notaPresentacionFix = promedio;
 
-                tv_resultado.setText("Tu promedio es : "+promedio);
+
+                Toast toast1 = Toast.makeText(getApplicationContext(), "Tu Promedio es : "+promedio, Toast.LENGTH_SHORT);
+
+               toast1.show();
 
 
             }

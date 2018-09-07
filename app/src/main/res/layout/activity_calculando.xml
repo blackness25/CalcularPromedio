@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#e0f2f1"
     tools:context=".Calculando">
 
     <TextView
@@ -34,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="EPE1"
+        android:hint="EPE 1"
         android:inputType="textPersonName" />
 
     <EditText
@@ -42,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint=" EPE 2"
+        android:hint="EPE 2"
         android:inputType="textPersonName" />
 
     <EditText
@@ -77,15 +78,10 @@
         android:hint="EVA4"
         android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/tv_resultado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Resultado" />
-
     <Button
         android:id="@+id/btn_calcularP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:text="Calcular Promedio" />
 </LinearLayout>

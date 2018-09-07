@@ -91,12 +91,6 @@
             android:hint="Ingrese Examen"
             android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/tv_resultado"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resultado" />
-
         <Button
             android:id="@+id/btn_EnviarE"
             android:layout_width="match_parent"

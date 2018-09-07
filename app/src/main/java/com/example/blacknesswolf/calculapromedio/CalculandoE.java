@@ -6,12 +6,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class CalculandoE extends AppCompatActivity {
     //Instanciamos
     private EditText et_epr1,et_epr2,et_epe1,et_epe2,et_eva1,et_eva2,et_eva3,et_eva4,et_resultado;
     private Button btn_EnviarE;
-    private TextView tv_resultado;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +30,7 @@ public class CalculandoE extends AppCompatActivity {
         //Button
         btn_EnviarE=findViewById(R.id.btn_EnviarE);
         //TextViw
-        tv_resultado=findViewById(R.id.tv_resultado);
+
         btn_EnviarE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +54,9 @@ public class CalculandoE extends AppCompatActivity {
                 double totalEvas=sumaEvas*0.3;
                 double promedio =epr1+epr2+epe1+epe2+totalEvas;
                 double notaPresentacionFix = promedio;
-                tv_resultado.setText("Tu promedio es : "+promedio);
+                Toast toast1 = Toast.makeText(getApplicationContext(), "Das exame con : "+promedio, Toast.LENGTH_SHORT);
+
+                toast1.show();
             }
         });
 
